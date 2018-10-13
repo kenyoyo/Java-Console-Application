@@ -1,4 +1,3 @@
-package xyz.company.email.generator;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,7 +9,7 @@ public class EmailApp {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		PersonalData person = new PersonalData();
 		
-		System.out.println("***XYZ company email generator program***\n");
+		System.out.println("***XYZ company email generator application***\n");
 		
 		while (true) {
 			System.out.print("Enter your first name: ");

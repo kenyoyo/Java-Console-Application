@@ -1,4 +1,3 @@
-package xyz.company.email.generator;
 
 public class EmailGeneratorService {
 	

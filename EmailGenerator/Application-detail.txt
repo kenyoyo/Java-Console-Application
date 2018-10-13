@@ -1,3 +1,0 @@
-Generate email by syntax of
-<firstname>.<lastname>@<department>.<companyname>.com
-and random password

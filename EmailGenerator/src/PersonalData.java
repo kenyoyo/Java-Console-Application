@@ -1,4 +1,3 @@
-package xyz.company.email.generator;
 
 import java.util.regex.Pattern;
 
@@ -21,7 +20,7 @@ public class PersonalData {
 		if (Pattern.compile("[0-9]").matcher(firstName).find())
 			return false;
 
-		this.firstName = firstName.trim();
+		this.firstName = firstName.trim().substring(0, 1).toUpperCase() + firstName.trim().substring(1);
 		return true;
 	}
 
@@ -34,7 +33,7 @@ public class PersonalData {
 		if (Pattern.compile("[0-9]").matcher(lastName).find())
 			return false;
 
-		this.lastName = lastName;
+		this.lastName = lastName.trim().substring(0, 1).toUpperCase() + lastName.trim().substring(1);
 		return true;
 	}
 
